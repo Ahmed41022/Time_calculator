@@ -35,7 +35,7 @@ def main():
     money = convert_currency(money, currency)
     time_hours, time_mins = calculate_time(money)
 
-    print(f"Amount: {money} {currency}")
+    print(f"Amount: {money} EGP")
     print(f"Time: {time_hours} hours and {time_mins} minutes")
 
 if __name__ == "__main__":
