@@ -19,6 +19,7 @@ def convert_currency(amount, currency):
     """Convert the amount to EGP if the currency is USD."""
     if currency == 'USD':
         amount = amount * 49
+        currency = 'USD'
     return amount
 
 def calculate_time(amount):
